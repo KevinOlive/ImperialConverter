@@ -14,6 +14,7 @@
 		0A8AAA6C2239982200C241F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AAA6A2239982200C241F4 /* LaunchScreen.storyboard */; };
 		0A8AAA772239982200C241F4 /* ImperialConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAA762239982200C241F4 /* ImperialConverterTests.swift */; };
 		0A8AAA822239982200C241F4 /* ImperialConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAA812239982200C241F4 /* ImperialConverterUITests.swift */; };
+		0A8AAA92223B169800C241F4 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAA91223B169800C241F4 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A8AAA7D2239982200C241F4 /* ImperialConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImperialConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8AAA812239982200C241F4 /* ImperialConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialConverterUITests.swift; sourceTree = "<group>"; };
 		0A8AAA832239982200C241F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8AAA91223B169800C241F4 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0A8AAA612239982000C241F4 /* AppDelegate.swift */,
 				0A8AAA632239982000C241F4 /* ViewController.swift */,
+				0A8AAA91223B169800C241F4 /* RoundButton.swift */,
 				0A8AAA652239982000C241F4 /* Main.storyboard */,
 				0A8AAA682239982200C241F4 /* Assets.xcassets */,
 				0A8AAA6A2239982200C241F4 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8AAA92223B169800C241F4 /* RoundButton.swift in Sources */,
 				0A8AAA642239982000C241F4 /* ViewController.swift in Sources */,
 				0A8AAA622239982000C241F4 /* AppDelegate.swift in Sources */,
 			);
