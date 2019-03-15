@@ -40,8 +40,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     // values are standardized on cups
     let volumeMeasure : [Measure] = [("Select", 1.0),
-                                     ("Teaspoons", 48.0),
-                                     ("Tablespoons", 16.0),
+                                     ("Teaspoons", 0.02083333333),
+                                     ("Tablespoons", 0.0625),
                                      ("Cups", 1.0),
                                      ("Quarts", 0.25),
                                      ("Gallons", 0.0625),

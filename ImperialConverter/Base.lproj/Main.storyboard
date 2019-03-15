@@ -22,19 +22,6 @@
                                 <rect key="frame" x="16" y="43" width="49" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" momentary="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gaq-N4-SYg">
-                                <rect key="frame" x="63" y="144" width="248" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Weight"/>
-                                    <segment title="Length"/>
-                                    <segment title="Volume"/>
-                                </segments>
-                                <connections>
-                                    <action selector="conversionType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaV-u9-RqN"/>
-                                    <action selector="conversionType:" destination="BYZ-38-t0r" eventType="valueChanged" id="sgA-n0-iqq"/>
-                                </connections>
-                            </segmentedControl>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AVi-FU-E6D">
                                 <rect key="frame" x="20" y="180" width="334" height="355"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -115,13 +102,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select conversion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7C-dy-bwQ">
-                                <rect key="frame" x="100" y="105" width="175" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" momentary="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gaq-N4-SYg">
+                                <rect key="frame" x="63" y="128" width="248" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Weight"/>
+                                    <segment title="Length"/>
+                                    <segment title="Volume"/>
+                                </segments>
+                                <connections>
+                                    <action selector="conversionType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaV-u9-RqN"/>
+                                    <action selector="conversionType:" destination="BYZ-38-t0r" eventType="valueChanged" id="sgA-n0-iqq"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
